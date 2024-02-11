@@ -1,6 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using BookCatalogAPI.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var conMysql = builder.Configuration.GetConnectionString("ConnectionMySql");
+
+builder.Services.AddDbContext<libdbContext>(options => options.UseMySql(
+    conMysql,
+    ServerVersion.Parse("8.0.34")
+));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
