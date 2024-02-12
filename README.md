@@ -16,13 +16,7 @@
         margin: 0 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
 </div>
 
-<img>
-<svg width="100" height="100" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)">
-    <circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px" stroke-dasharray="565.48px" stroke-dashoffset="0"></circle>
-    <circle r="90" cx="100" cy="100" stroke="#006eff" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="537px" fill="transparent" stroke-dasharray="565.48px"></circle>
-    <text x="65px" y="117px" fill="#006eff" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0px, -196px)">5%</text>
-</svg>
-</img>
+Progress: 5%
 
 ---
 
